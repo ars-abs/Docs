@@ -2,19 +2,23 @@
 
 ## 1. Remote Debugging 
 
-   a) **USB Debugging:** 
-      - It is impossible for remote users.
-      - Experimental Hack No USB –  
-        ```
+   # USB Debugging:
+
+    - It is impossible for remote users.
+    - Experimental Hack No USB –  
+        
+      ```
         $ adb tcpip 5555
         $ adb connect mobileIp:5555
-        ```
-        To connect with the mobile, you should see the Android icon on Godot debug (Should connect in the same network).
+        
+      ```
+      To connect with the mobile, you should see the Android icon on Godot debug (Should connect in the same network).
 
-   b) **HTTP Server:** 
-      - Need to explore.
-      - (Looks like Godot-JavaScript Bridge for web).
-      - It runs in the browser (mathApp not working in that way).
+   # HTTP Server:
+
+     - Need to explore.
+     - (Looks like Godot-JavaScript Bridge for web).
+     - It runs in the browser (mathApp not working in that way).
 
 ## 2. Android Emulator – Costly 
 
